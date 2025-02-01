@@ -13,8 +13,8 @@ pool:
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  solution: '**/khansaheen.myDotNetCoreWebAPIProject.sln'
-  project: '**/khansaheen.myDotNetCoreWebAPIProject.csproj'
+  solution: '**/khansaheen.EmployeeAdminPortal.sln'
+  project: '**/khansaheen.EmployeeAdminPortal.csproj'
 
 steps:
 - task: NuGetToolInstaller@1
