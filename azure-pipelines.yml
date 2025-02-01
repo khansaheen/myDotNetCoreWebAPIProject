@@ -7,6 +7,7 @@ trigger:
 - none
 
 pool:
+  name: 'DotNet'
   vmImage : 'windows-latest'
 
 variables:
