@@ -52,5 +52,5 @@ steps:
   displayName: 'Publish Build Artifacts'
   inputs:
     PathtoPublish: $(Build.ArtifactStagingDirectory)
-    ArtifactName: 'myDotNetCoreWebAPIProject'
+    ArtifactName: 'EmployeeAdminPortal'
     publishLocation: 'Container'
