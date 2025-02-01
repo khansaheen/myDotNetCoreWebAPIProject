@@ -13,8 +13,8 @@ pool:
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  solution: '**/khansaheen.EmployeeAdminPortal.sln'
-  project: '**/khansaheen.EmployeeAdminPortal.csproj'
+  solution: '**/EmployeeAdminPortal.sln'
+  project: '**/EmployeeAdminPortal.csproj'
 
 steps:
 - task: NuGetToolInstaller@1
