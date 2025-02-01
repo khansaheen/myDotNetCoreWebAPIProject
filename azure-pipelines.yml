@@ -62,5 +62,5 @@ steps:
     azureSubscription: 'Azure subscription 1(be145860-99be-4802-b2c2-17a024c99f58)'  # Replace with your Azure DevOps service connection
     appName: 'mynetcorewebapiapp'  # Replace with your actual Azure Web App name
     appType: webApp
-    package: '$(Build.ArtifactStagingDirectory)/*/.zip'
+    package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
     deploymentMethod: 'runFromPackage'
